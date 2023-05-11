@@ -16,6 +16,21 @@
     background: #252930;
 }
 
+.box-left {
+    position: absolute;
+    width: 62px;
+    height: 108px;
+    left: 338px;
+    top: 44%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .bg-image {
     background-image: url(../image/image-1.png);
     background-repeat: no-repeat;
@@ -150,7 +165,8 @@
 }
 
 .slick-dots {
-    bottom: -70px !important;
+    bottom: 15px !important;
+    left: 0;
 }
 
 .slick-dots li button:before {
@@ -163,6 +179,10 @@
 .slick-dots li.slick-active button:before {
     opacity: 1 !important;
     color: blue !important;
+}
+
+.slick-slider {
+    position: static !important;
 }
 
 
